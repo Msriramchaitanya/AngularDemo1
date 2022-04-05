@@ -1,0 +1,32 @@
+<!--<app-product-component></app-product-component>
+<app-add-product-component></app-add-product-component>-->
+
+  <p>
+    <mat-toolbar>
+      <span>My Products</span>
+    </mat-toolbar>
+  </p>
+  
+  <p>
+    <mat-toolbar>
+     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon routerLink="products" class="nav-link">menu</mat-icon>
+      <span routerLink="products" class="nav-link">View Products</span>
+    </button>
+    
+    <span class="example-spacer"></span>
+    
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with add icon">
+     <mat-icon routerLink="add" class="nav-link">add</mat-icon>
+     
+   </button>
+   
+  </mat-toolbar>
+  </p>
+  <div class="container mt-3">
+    <router-outlet></router-outlet>
+  </div>
+  
+  
+  
+  

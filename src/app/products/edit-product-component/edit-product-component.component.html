@@ -1,0 +1,28 @@
+
+<h3>Update Product Name</h3>
+<br>
+<form #productForm="ngForm" (ngSubmit)="editProduct(productForm.value)">
+  ProductName:  <input type="=text" ngModel name="ProductName" placeholder="enter ProductName "><br>
+    <!--ProductID:  <input type="=text" ngModel name="ProductID" placeholder="enter ProductID "><br>
+    
+    ProductPrice:  <input type="=text" ngModel name="ProductPrice" placeholder="enter ProductPrice "><br>
+    ProductType:  <input type="=text" ngModel name="ProductType" placeholder="enter ProductType "><br>-->
+
+  
+  <section>
+    
+    <div class="example-button-row">
+      <button mat-raised-button type="submit">Update</button>
+      
+    </div>
+  </section>
+  <br>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+
+
+</form>

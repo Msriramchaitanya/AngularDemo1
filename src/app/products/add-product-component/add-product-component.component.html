@@ -1,0 +1,20 @@
+<h3 style="padding-left: 100px;">Add Product Details</h3>
+<form #productForm="ngForm" (ngSubmit)="addProducts(productForm.value)">
+
+    ProductID:  <input  type="=text" ngModel name="ProductID" placeholder="enter ProductID "><br>
+    ProductName:  <input type="=text" ngModel name="ProductName" placeholder="enter ProductName "><br>
+    ProductPrice:  <input type="=text" ngModel name="ProductPrice" placeholder="enter ProductPrice "><br>
+    ProductType:  <input type="=text" ngModel name="ProductType" placeholder="enter ProductType "><br>
+
+  
+  <section>
+    
+    <div class="example-button-row">
+      <button mat-raised-button type="submit">Add Product</button>
+      
+    </div>
+  </section>
+
+
+</form>
+
